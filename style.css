@@ -1,0 +1,7 @@
+@import url(./components/contact.css);
+@import url(./components/footer.css);
+*{
+  /* border: solid 2px red; */
+  margin: 0;
+  /* border: 2px solid red; */
+}

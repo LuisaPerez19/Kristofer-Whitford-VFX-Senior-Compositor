@@ -1,0 +1,27 @@
+.contact-heading{
+  text-align: center;
+}
+
+/* .contact-container{
+
+} */
+
+.contact-container-card{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 430px;
+  border: 2px solid red;
+}
+
+.contact-container-card-icon{
+  font-size: xx-large;
+  border-radius: 50%;
+  border: solid 2px black;
+  padding: 20px;
+  margin: 10px;
+}
+
+.contact-container-card-info{
+  align-self: center;
+}
