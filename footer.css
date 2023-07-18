@@ -1,0 +1,45 @@
+*{
+  /* border: solid 2px red; */
+  margin: 0;
+}
+
+footer {
+  font-family:'Roboto', Courier, monospace;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+
+.footer-contact-info{
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.footer-contact-info h6{
+  border-right: 2px solid black;
+  padding-right: 5px;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.footer-logo{
+  background-color: black;
+  color: white;
+  align-self: center;
+}
+.icons{
+  align-items: flex-end;
+  align-self: center;
+}
