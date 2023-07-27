@@ -1,5 +1,7 @@
 @import url(./components/contact.css);
 @import url(./components/footer.css);
+@import url(./components/nav.css);
+@import url(./components/slider.css);
 *{
   /* border: solid 2px red; */
   margin: 0;
