@@ -9,7 +9,7 @@ nav {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 0.9rem;
+  padding: 0.5rem;
 }
 
 nav ul li {
@@ -21,7 +21,7 @@ nav ul li {
 nav ul li a {
   color: black;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
   font-weight: lighter;
 }
@@ -30,6 +30,6 @@ nav ul li a {
   background-color: black;
   color: white;
   align-self: center;
-  font-size: 16px ;
+  font-size: 14px ;
   font-weight: lighter;
 }
