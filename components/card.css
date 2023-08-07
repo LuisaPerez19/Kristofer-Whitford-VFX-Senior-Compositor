@@ -1,0 +1,51 @@
+/* Styling for the container holding the cards */
+.cards-container {
+  display: flex; /* Display cards in a row */
+  flex-wrap: wrap; /* Wrap cards to the next row when there's not enough space */
+  gap: 20px; /* Gap between cards */
+  padding: 20px; /* Equal padding on the left and right of the container */
+}
+
+/* Styling for individual cards */
+.single-card {
+  border: 1px solid #ccc; /* Border around the card */
+  padding: 10px; /* Padding inside the card */
+  max-width: 200px; /* Reduced card width */
+  background-color: #f0f0f0; /* Light grey background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); /* Transition effect */
+}
+
+/* Styling for the card images */
+.card-image {
+  width: 100%; /* Set the image width to 100% of the container */
+  height: auto; /* Maintain aspect ratio for the image */
+  display: block; /* Make the image a block element */
+  margin-bottom: 10px; /* Increased margin for spacing */
+}
+
+/* Styling for the text inside the cards */
+.card-text {
+  display: block; /* Make the text a block element */
+  font-size: 16px; /* Reduced font size for card text */
+  margin-bottom: 10px; /* Increased margin for spacing */
+}
+
+/* Styling to make the pictures take up half the card and the text centered underneath */
+.single-card img {
+  width: 100%; /* Set the image width to 100% of the container */
+  height: auto; /* Maintain aspect ratio for the image */
+  display: block; /* Make the image a block element */
+  margin-bottom: 10px; /* Increased margin for spacing */
+}
+
+/* Styling for the whole card to make them distinct with a nice grey color scheme */
+.single-card {
+  background-color: #f7f7f7; /* Light grey background */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); /* Transition effect */
+}
