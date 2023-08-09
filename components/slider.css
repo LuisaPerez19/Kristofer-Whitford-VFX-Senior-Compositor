@@ -4,11 +4,11 @@
 .slider-container{
   width: 100%;
   margin: 0px auto;
-  height: 100vh;
+  height: 85vh;
 }
 
 .carousel{
-  border: 2px solid #ccc;
+  border: 2px solid transparent;
   height: 600px;
   position: relative;
   overflow: hidden;
@@ -18,7 +18,7 @@
   height: 100%;
   display: flex;
   width: 400%;
-  border: 1px solid red;
+  border: 1px solid transparent;
   transition: all 0.3s;
 }
 
@@ -33,28 +33,36 @@
   background-image: url('/images/aladdin_ver2.jpg');
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 450px;
 }
 
 .section-2{
   background-image: url('/images/ant_man_ver3.jpg');
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 450px;
 }
 
 .section-3{
   background-image: url('/images/avengers_age_of_ultron_ver11.jpg');
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 450px;
 }
 
 .section-4{
   background-image: url('/images/fast_x.jpg');
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 450px;
 }
 .controls .arrow{
   position: absolute;
-  top: 50%;
+  top: 40%;
   cursor: pointer;
   font-size: 60px;
   transform: translateY(-50%);
@@ -72,7 +80,7 @@
 
 .controls ul{
   position: absolute;
-  bottom: 20px;
+  bottom: 60px;
   left: 50%;
   transform: translate(-50%);
   list-style: none;
@@ -84,7 +92,7 @@
 .controls ul li {
   width: 14px;
   height: 14px;
-  border: 2px solid #333;
+  border: 2px solid transparent;
   border-radius: 50px;
   margin: 10px;
   margin-bottom: 120px;
@@ -93,7 +101,7 @@
   }
 
 .controls ul li.selected{
-  background: white;
+  background: #efefef;
 }
 
 .banner-section .top-text{
