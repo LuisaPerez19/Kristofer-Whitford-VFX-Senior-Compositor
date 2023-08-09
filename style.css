@@ -4,6 +4,7 @@
 @import url(./components/slider.css);
 @import url(./components/card.css);
 @import url(./components/reel.css);
+@import url(./components/infographic.css);
 
 *{
   /* border: solid 2px red; */
@@ -18,7 +19,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: white;
 }
 
 body{
