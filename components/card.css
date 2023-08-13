@@ -1,51 +1,121 @@
-/* Styling for the container holding the cards */
-.cards-container {
-  display: flex; /* Display cards in a row */
-  flex-wrap: wrap; /* Wrap cards to the next row when there's not enough space */
-  gap: 20px; /* Gap between cards */
-  padding: 20px; /* Equal padding on the left and right of the container */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* Styling for individual cards */
-.single-card {
-  border: 1px solid #ccc; /* Border around the card */
-  padding: 10px; /* Padding inside the card */
-  max-width: 200px; /* Reduced card width */
-  background-color: #f0f0f0; /* Light grey background color */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); /* Transition effect */
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFEFEF;
 }
 
-/* Styling for the card images */
-.card-image {
-  width: 100%; /* Set the image width to 100% of the container */
-  height: auto; /* Maintain aspect ratio for the image */
-  display: block; /* Make the image a block element */
-  margin-bottom: 10px; /* Increased margin for spacing */
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  background-color: grey;
+  padding: 40px 0;
+  overflow: hidden; /* Hide any potential overflow from cards */
+}
+.slide-content{
+  margin: 40px;
+}
+.card{
+  width: 100%;
+  max-width: 320px;
+  border-radius: 25px;
+  background-color: #FFF;
 }
 
-/* Styling for the text inside the cards */
-.card-text {
-  display: block; /* Make the text a block element */
-  font-size: 16px; /* Reduced font size for card text */
-  margin-bottom: 10px; /* Increased margin for spacing */
+.image-content,
+.card-content{
+  display: flex;
+  padding: 10px 14px;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Styling to make the pictures take up half the card and the text centered underneath */
-.single-card img {
-  width: 100%; /* Set the image width to 100% of the container */
-  height: auto; /* Maintain aspect ratio for the image */
-  display: block; /* Make the image a block element */
-  margin-bottom: 10px; /* Increased margin for spacing */
+.image-content{
+  position: relative;
+  row-gap: 5px;
 }
 
-/* Styling for the whole card to make them distinct with a nice grey color scheme */
-.single-card {
-  background-color: #f7f7f7; /* Light grey background */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); /* Transition effect */
+/* .overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070F4;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right:  0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070F4;
+}
+
+.overlay::after{
+border-radius: 0 25px 0 0;
+background-color: #FFF;
+} */
+
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #4070F4;
+}
+
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #300;
+}
+
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #4070F4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover{
+  background: #265DF2;
+
+}
+
+.white-text{
+  color: #FFF;
 }
