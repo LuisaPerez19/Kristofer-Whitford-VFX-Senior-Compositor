@@ -3,9 +3,29 @@
 @import url(./components/nav.css);
 @import url(./components/slider.css);
 @import url(./components/card.css);
+@import url(./components/reel.css);
+@import url(./components/infographic.css);
 
 *{
   /* border: solid 2px red; */
   margin: 0;
   /* border: 2px solid red; */
+}
+
+html,
+body {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+body{
+  /* overflow: hidden; */
+}
+
+.main{
+  background-color: black;
 }

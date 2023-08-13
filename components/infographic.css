@@ -1,0 +1,57 @@
+.info-container{
+  display: flex;
+}
+
+.info{
+  color: white;
+  border-color: solid 2px red;
+  flex: 1;
+  width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+.info p {
+  font-size: 12px;
+}
+.info p i {
+  padding-right: 10px;
+}
+
+.info a{
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.photo{
+  width: 500px;
+}
+
+.role{
+  padding-top: 40px;
+}
+
+.role p{
+  font-size: 12px;
+}
+
+.tag{
+  padding-top: 10px;
+}
+
+.photo{
+  background-image: url('/images/aladdin_ver2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
