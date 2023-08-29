@@ -7,13 +7,13 @@
   border-color: solid 2px red;
   flex: 1;
   width: 100px;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-right: 20px;
   padding-top: 60px;
 }
 
 .info p {
-  font-size: 11px;
+  font-size: 16px;
 }
 .info p i {
   padding-right: 10px;
@@ -23,10 +23,10 @@
   background-image: linear-gradient(to right, purple, blue);
   color: white;
   text-decoration: none;
-  margin-top: 30px;
+  margin-top: 50px;
   border-radius: 4px;
   padding: 8px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -34,16 +34,13 @@
   background-image: linear-gradient(to right, blue, purple);
 }
 
-.photo{
-  width: 500px;
-}
 
 .role{
   padding-top: 40px;
 }
 
 .role p{
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .tag{
@@ -59,20 +56,20 @@
   margin-top: 20px;
   margin-bottom: 30px;
   border-radius: 4px;
+  width: 750px;
 }
 
 #grid{
   position: absolute;
-  top: 93%;
-  left: 55%;
+  top: 91%;
+  left: 53%;
   color: white;
-  font-size: 20px;
 }
 
 .previous{
   border-color: white;
   position: absolute;
-  top: 93%;
+  top: 91%;
   left: 80%;
 }
 
@@ -82,10 +79,8 @@
   text-decoration: none;
   margin-top: 30px;
   border-radius: 4px;
-  padding: 8px;
-  font-size: 12px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 8px 10px 8px 10px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -95,7 +90,7 @@
 
 .next{
   position: absolute;
-  top: 93%;
+  top: 91%;
   left: 87%;
 }
 
@@ -105,9 +100,8 @@
   text-decoration: none;
   margin-top: 30px;
   border-radius: 4px;
-  padding: 8px;
-  font-size: 12px;
-  padding: 5px 20px 5px 20px;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
   font-weight: 600;
 }
 
