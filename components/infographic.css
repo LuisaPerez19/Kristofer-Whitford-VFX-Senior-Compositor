@@ -59,6 +59,42 @@
   width: 750px;
 }
 
+.antman-photo{
+  background-image: url('/images/ant_man_ver3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.jurassic-photo{
+  background-image: url('/images/jurassic_world_fallen_kingdom_ver2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.thor-photo{
+  background-image: url('/images/thor_love_and_thunder_ver3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
 #grid{
   position: absolute;
   top: 91%;
