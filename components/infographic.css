@@ -54,7 +54,8 @@
 
 .photo{
   background-image: url('/images/aladdin_ver2.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
   margin-left: 30px;
@@ -66,7 +67,8 @@
 
 .moonKnight-photo{
   background-image: url('/images/moon_knight_ver19.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
   margin-left: 30px;
@@ -78,7 +80,8 @@
 
 .jurassic-photo{
   background-image: url('/images/jurassic_world_fallen_kingdom_ver2.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
   margin-left: 30px;
@@ -90,7 +93,8 @@
 
 .thor-photo{
   background-image: url('/images/thor_love_and_thunder_ver3.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
   margin-left: 30px;
@@ -102,7 +106,8 @@
 
 .citadel-photo{
   background-image: url('/images/citadelposter.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
   margin-left: 30px;
@@ -114,7 +119,8 @@
 
 .no-time-to-die-photo{
   background-image: url('/images/007.jpeg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
   margin-left: 30px;
@@ -126,7 +132,8 @@
 
 .guardians-photo{
   background-image: url('/images/guardians_holiday.webp');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
   margin-left: 30px;
@@ -138,7 +145,8 @@
 
 .star-photo{
   background-image: url('/images/star_wars_the_rise_of_skywalker_ver4.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
   margin-left: 30px;
@@ -150,7 +158,8 @@
 
 .spiderman-photo{
   background-image: url('/images/spiderman_far_from_home.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
   margin-left: 30px;
@@ -162,7 +171,8 @@
 
 .tom-photo{
   background-image: url('/images/tom_and_jerry_ver2-min.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   height: 85vh;
   margin-left: 30px;
