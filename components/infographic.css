@@ -1,5 +1,10 @@
 .info-container{
   display: flex;
+  max-width: 1536px;;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .info{
@@ -7,38 +12,40 @@
   border-color: solid 2px red;
   flex: 1;
   width: 100px;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-right: 20px;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .info p {
-  font-size: 12px;
+  font-size: 16px;
 }
 .info p i {
   padding-right: 10px;
 }
 
 .info a{
-  background-color: white;
-  color: black;
+  background-image: linear-gradient(to right, purple, blue);
+  color: white;
   text-decoration: none;
-  margin-top: 30px;
+  margin-top: 50px;
   border-radius: 4px;
   padding: 8px;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.photo{
-  width: 500px;
+.info a:hover{
+  background-image: linear-gradient(to right, blue, purple);
 }
+
 
 .role{
   padding-top: 40px;
 }
 
 .role p{
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .tag{
@@ -52,6 +59,422 @@
   height: 85vh;
   margin-left: 30px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 4px;
+  width: 750px;
+}
+
+.moonKnight-photo{
+  background-image: url('/images/moon_knight_ver19.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.jurassic-photo{
+  background-image: url('/images/jurassic_world_fallen_kingdom_ver2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.thor-photo{
+  background-image: url('/images/thor_love_and_thunder_ver3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.citadel-photo{
+  background-image: url('/images/citadelposter.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.no-time-to-die-photo{
+  background-image: url('/images/007.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.guardians-photo{
+  background-image: url('/images/guardians_holiday.webp');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.star-photo{
+  background-image: url('/images/star_wars_the_rise_of_skywalker_ver4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.spiderman-photo{
+  background-image: url('/images/spiderman_far_from_home.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.tom-photo{
+  background-image: url('/images/tom_and_jerry_ver2-min.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  width: 750px;
+}
+
+#grid{
+  position: absolute;
+  top: 91%;
+  left: 53%;
+  color: white;
+}
+
+.previous{
+  border-color: white;
+  position: absolute;
+  top: 91%;
+  left: 80%;
+}
+
+.previous a{
+  background-image: linear-gradient(to right, purple, blue);
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 8px 10px 8px 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.previous a:hover{
+  background-image: linear-gradient(to right, blue, purple);
+}
+
+.next{
+  position: absolute;
+  top: 91%;
+  left: 87%;
+}
+
+.next a{
+  background-image: linear-gradient(to right, purple, blue);
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
+  font-weight: 600;
+}
+
+.next a:hover{
+  background-image: linear-gradient(to right, blue, purple);
+}
+
+/* responsive site */
+
+@media (max-width: 1280px) {
+  .info-container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 960px) {
+  .info {
+    flex: 1;
+    width: 920px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+  .info p {
+    font-size: 14px;
+  }
+  .photo{
+    width: 500px;
+  }
+
+  .moonKnight-photo{
+    width: 500px;
+  }
+
+  .jurassic-photo{
+    width: 500px;
+  }
+
+  .thor-photo{
+    width: 500px;
+  }
+
+  .citadel-photo{
+    width: 500px;
+  }
+
+  .no-time-to-die-photo{
+    width: 500px;
+  }
+
+  .guardians-photo{
+    width: 500px;
+  }
+
+  .star-photo{
+    width: 500px;
+  }
+
+  .spiderman-photo{
+    width: 500px;
+  }
+
+  .tom-photo{
+    width: 500px;
+  }
+
+
+  #grid{
+    position: absolute;
+    top: 80%;
+    left: 73%;
+    color: white;
+  }
+
+  .previous{
+    position: absolute;
+    top: 80%;
+    left: 77%;
+  }
+
+  .next{
+    position: absolute;
+    top: 80%;
+    left: 88%;
+}
+}
+
+
+@media (max-width: 720px) {
+  .info {
+    flex: 1;
+    width: 680px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+  .info p {
+    font-size: 12px;
+  }
+  .photo{
+    width: 300px;
+  }
+
+  #grid{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    color: white;
+  }
+
+  .previous{
+    position: absolute;
+    top: 130%;
+    left: 60%;
+  }
+
+  .next{
+    position: absolute;
+    top: 130%;
+    left: 80%;
+}
+}
+
+@media (max-width: 540px) {
+  .info {
+    flex: 1;
+    width: 470px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin: auto;
+  }
+  .info p {
+    font-size: 14px;
+  }
+
+  .info a{
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  #grid{
+    position: absolute;
+    top: 155%;
+    left: 50%;
+    color: white;
+  }
+
+  .previous{
+    position: absolute;
+    top: 155%;
+    left: 60%;
+  }
+
+  .previous a{
+    font-size: 10px;
+  }
+
+  .next{
+    position: absolute;
+    top: 155%;
+    left: 80%;
+  }
+
+  .next a{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .info {
+    flex: 1;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin: auto;
+  }
+  .info p {
+    font-size: 10px;
+  }
+
+  .info a{
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .photo{
+    width: 200px;
+    height: 400px;
+  }
+
+  .moonKnight-photo{
+    width: 200px;
+    height: 400px;
+  }
+
+  .jurassic-photo{
+    width: 200px;
+    height: 400px;
+  }
+
+  .thor-photo{
+    width: 200px;
+    height: 400px;
+  }
+
+  .citadel-photo{
+    width: 200px;
+    height: 400px;
+  }
+
+  .no-time-to-die-photo{
+    width: 200px;
+    height: 400px;
+  }
+
+  .guardians-photo{
+    width: 200px;
+    height: 400px;
+  }
+
+  .star-photo{
+    width: 200px;
+    height: 400px;
+  }
+
+  .spiderman-photo{
+    width: 200px;
+    height: 400px;
+  }
+
+  .tom-photo{
+    width: 200px;
+    height: 400px;
+  }
+
+  #grid{
+    position: absolute;
+    top: 77%;
+    left: 10%;
+    color: white;
+  }
+
+  .previous{
+    position: absolute;
+    top: 77%;
+    left: 20%;
+  }
+
+  .previous a{
+    font-size: 10px;
+  }
+
+  .next{
+    position: absolute;
+    top: 77%;
+    left: 40%;
+  }
+
+  .next a{
+    font-size: 10px;
+  }
 }
