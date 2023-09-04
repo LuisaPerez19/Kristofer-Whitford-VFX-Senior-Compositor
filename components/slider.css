@@ -94,9 +94,9 @@
 }
 
 .controls ul li {
-  width: 14px;
-  height: 14px;
-  border: 2px solid transparent;
+  width: 16px;
+  height: 16px;
+  border: 2px solid white;
   border-radius: 50px;
   margin: 10px;
   margin-bottom: 120px;
