@@ -30,8 +30,9 @@
 }
 
 .section-1 {
-  background-image: url('/images/aladdin_ver2.jpg');
-  background-size: cover;
+  background-image: url('/images/Aladin-2019.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 700px;
@@ -39,7 +40,7 @@
 
 .section-2{
   background-image: url('/images/ant_man_ver3.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   width: 100%;
   height: 700px;
