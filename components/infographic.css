@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital@1&display=swap');
+
+
 .info-container{
   display: flex;
   max-width: 1536px;;
@@ -15,10 +19,12 @@
   padding-left: 30px;
   padding-right: 20px;
   padding-top: 60px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .info p {
-  font-size: 16px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 .info p i {
   padding-right: 10px;
@@ -45,7 +51,7 @@
 }
 
 .role p{
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .tag{
@@ -53,7 +59,6 @@
 }
 
 .photo{
-  background-image: url('/images/aladdin_ver2.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,124 +67,7 @@
   margin-top: 20px;
   margin-bottom: 30px;
   border-radius: 4px;
-  width: 750px;
-}
-
-.moonKnight-photo{
-  background-image: url('/images/moon_knight_ver19.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 85vh;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  width: 750px;
-}
-
-.jurassic-photo{
-  background-image: url('/images/jurassic_world_fallen_kingdom_ver2.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 85vh;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  width: 750px;
-}
-
-.thor-photo{
-  background-image: url('/images/thor_love_and_thunder_ver3.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 85vh;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  width: 750px;
-}
-
-.citadel-photo{
-  background-image: url('/images/citadelposter.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 85vh;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  width: 750px;
-}
-
-.no-time-to-die-photo{
-  background-image: url('/images/007.jpeg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 85vh;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  width: 750px;
-}
-
-.guardians-photo{
-  background-image: url('/images/guardians_holiday.webp');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 85vh;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  width: 750px;
-}
-
-.star-photo{
-  background-image: url('/images/star_wars_the_rise_of_skywalker_ver4.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 85vh;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  width: 750px;
-}
-
-.spiderman-photo{
-  background-image: url('/images/spiderman_far_from_home.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 85vh;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  width: 750px;
-}
-
-.tom-photo{
-  background-image: url('/images/tom_and_jerry_ver2-min.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 85vh;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  width: 750px;
+  width: 600px;
 }
 
 #grid{
