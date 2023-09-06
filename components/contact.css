@@ -1,3 +1,14 @@
+.container h1{
+  color: white;
+  margin-left: 850px;
+  font-size: 40px;
+}
+
+.contact{
+  margin-bottom: 20px;
+  color: #5490AA;
+  font-weight: 600;
+}
 .row-contact-page{
   display: flex;
   min-height: 88vh;
@@ -6,6 +17,8 @@
 .contact-left{
   flex-basis: 35%;
   padding-left: 5%;
+  margin-right: 20px;
+  margin-left: -10px;
 }
 .contact-right{
   flex-basis: 60%;
@@ -13,25 +26,28 @@
   padding-top: 2%;
 }
 .border-left{
-background-color: #ffffff;
+background-color: #d9d9d9;
 border-radius: 5px;
 padding: 5%;
 margin-top: 40px;
 }
-.sub-title{
-color: #ababab;
-text-decoration: underline;
-
-}
 
 .contact-left p{
   margin-top: 30px;
+  font-size: 17px;
+  text-decoration: none;
 }
 .contact-left p i{
-  color: #aeaeae;
+  color: #5490AA;
   margin-right: 15px;
   font-size: 25px;
 }
+
+.contact-left p i:hover{
+  color: #5490AA;
+  transform: translateY(-5px);
+}
+
 .social-icons{
   margin-top: 30px;
 }
@@ -39,17 +55,18 @@ text-decoration: underline;
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  color: #ababab;
+  color:  #5490AA;;
   display: inline-block;
   transition: transform 0.5s;
 }
 .social-icons a:hover{
-  color: #a2a2a2;
+  color: #5490AA;
   transform: translateY(-5px);
 }
 .btn.btn2{
   display: inline-block;
-  background: #e6e6e6;
+  background: linear-gradient(to right, purple, blue);
+  color: white;
 }
 .contact-right form{
   width: 100%;
