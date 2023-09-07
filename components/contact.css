@@ -40,6 +40,8 @@ margin-top: 40px;
   font-size: 17px;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  color: black;
+  font-weight: 500;
 }
 .contact-left p i{
   color: #5490AA;
