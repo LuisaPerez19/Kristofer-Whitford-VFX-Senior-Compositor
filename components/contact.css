@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital@1&display=swap');
+
 .container h1{
   color: white;
   margin-left: 850px;
   font-size: 40px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .contact{
@@ -36,6 +39,7 @@ margin-top: 40px;
   margin-top: 30px;
   font-size: 17px;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 .contact-left p i{
   color: #5490AA;
@@ -67,7 +71,15 @@ margin-top: 40px;
   display: inline-block;
   background: linear-gradient(to right, purple, blue);
   color: white;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
 }
+
+.btn.btn2:hover{
+  background-image: linear-gradient(to right, blue, purple);
+}
+
+
 .contact-right form{
   width: 100%;
 }
@@ -78,13 +90,28 @@ form input, form textarea{
   background: #d9d9d9;
   padding: 15px;
   margin: 15px 0;
-  color: #fff;
+  color: black;
   font-size: 18px;
   border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
 }
+
 form .btn2{
   padding: 14px 60px;
   font-size: 18px;
   margin-top: 20px;
   cursor: pointer;
+}
+
+#msg{
+  color: #5490AA;
+  margin-top: 10px;
+  display: block;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#me{
+  margin-bottom: -40px;
+  margin-top: -20px;
 }
