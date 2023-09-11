@@ -6,6 +6,7 @@
 @import url(./components/reel.css);
 @import url(./components/infographic.css);
 @import url(./components/about.css);
+@import url(./components/carousel.css);
 
 *{
   margin: 0;
