@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital@1&display=swap');
+
 #about{
   padding: 80px 0;
-  color: #ababab;
+  color: #d3d3d3;
 }
 
 .abt-row {
@@ -19,15 +21,24 @@
   width: 100%;
   border-radius: 15px;
   margin-left: 30px;
+  height: 650px;
 }
 
 .about-col-2 {
   flex-basis: 60%;
 }
+
+.about-col-2 p{
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
 .sub-title {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 .tab-titles {
   display: flex;
@@ -39,6 +50,7 @@
   font-weight: 500;
   cursor: pointer;
   position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 .tab-links::after {
   content: '';
@@ -49,6 +61,7 @@
   left: 0;
   bottom: -8px;
   transition: 0.5s;
+  font-family: 'Roboto', sans-serif;
 }
 .tab-links.active-link::after{
   width: 50%;
@@ -56,11 +69,14 @@
 .tab-contents ul li {
   list-style: none;
   margin: 10px 0;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 .tab-contents ul li span {
   color: #5490AA;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
+  font-family: 'Roboto', sans-serif;
 }
 .tab-contents {
   display: none;
