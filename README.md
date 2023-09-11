@@ -1,25 +1,28 @@
-# VFX-Senior-Compositor-Portfolio
+# Kristofer Whitford VFX Senior compositor portfolio website
 
-Kristofer Whitford VFX Senior compositor portfolio website.
+This repository contains the portfolio and work samples of Kristofer Whitford, a senior VFX compositor.
 
-JOB ROLE FOR THESE FILMS CAN BE "COMPOSITOR"
-Citadel (Dneg - 2023)
-Fast X (Dneg - 2023)
-Coyote VS Acme (Dneg - 2023)
-Godzilla x Kong: The New Empire (Dneg - 2023)
-Guardians of the Galaxy Vol.3 (Framestore - 2022)
-The Guardians of the Galaxy: Holiday Special (Framestore - 2022)
-Thor: Love and Thunder (Framestore - 2022)
-Moon Knight (Framestore - 2022)
-The King's Man (Framestore - 2021)
-A Boy Called Christmas (Framestore - 2021)
-007 No Time to Die (Framestore - 2021)
-Sex Education season 3 (Dupe VFX - 2021)
-Tom & Jerry: The Movie (Framestore - 2021)
-Star Wars: The Rise of Skywalker (ILM - 2019)
-Spider-man: Far from Home (ILM - 2019)
-Aladdin (ILM - 2019)
-Bird Box (ILM - 2018)
-Jurassic World: Fallen Kingdom (ILM - 2018)
-Transformers: The Last Knight (ILM - 2017)
-Life (ILM - 2017)
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Portfolio](#portfolio)
+- [Contact](#contact)
+
+## Introduction
+
+This repository serves as a showcase of Kristofer Whitford's skills and work as a senior VFX compositor. It includes a selection of projects and compositions that demonstrate Kristofer's expertise and creativity in the field of visual effects.
+
+## Portfolio
+
+You can explore Kristofer's portfolio by visiting the [Portfolio](https://github.com/LuisaPerez19/Kristofer-Whitford-VFX-Senior-Compositor/tree/main/Portfolio) directory in this repository. Inside this directory, you will find detailed information about various projects, including images and descriptions.
+
+Please feel free to explore the projects and get a sense of Kristofer's work.
+
+## Contact
+
+If you have any questions, inquiries, or would like to get in touch with Kristofer Whitford, you can contact him via:
+
+- Email: [kriswhitford@live.com](mailto:kriswhitford@live.com)
+- LinkedIn: [Kristofer Whitford on LinkedIn](https://www.linkedin.com/in/kris-whitford-0aa1a75b/)
+
+Kristofer welcomes collaboration and professional opportunities, so don't hesitate to reach out!
