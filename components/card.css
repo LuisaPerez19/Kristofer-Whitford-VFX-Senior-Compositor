@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital@1&display=swap');
+
 .portfolio-title {
   position: absolute;
   left: 50%;
@@ -5,10 +7,11 @@
   color: white;
   padding: 20px;
   text-decoration: underline;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container-for-cards{
-  margin-top: 45px;
+  margin-top: 60px;
 }
 
 .wrapper-cards-portfolio{
