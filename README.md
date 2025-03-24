@@ -14,7 +14,7 @@ This repository serves as a showcase of Kristofer Whitford's skills and work as 
 
 ## Portfolio
 
-You can explore Kristofer's portfolio by visiting the [Portfolio](https://github.com/LuisaPerez19/Kristofer-Whitford-VFX-Senior-Compositor/blob/main/portfolio.html) directory in this repository. Inside this directory, you will find detailed information about various projects, including images and descriptions.
+You can explore Kristofer's portfolio by visiting the [Portfolio](https://kristoferwhitford.com/index.html) website. Inside this website, you will find detailed information about various projects, including images and descriptions.
 
 Please feel free to explore the projects and get a sense of Kristofer's work.
 
